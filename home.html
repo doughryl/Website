@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daryl Ong</title>
+
+    <link rel="icon" href="heart.ico" type="image/x-icon"/>
+
+
+    <style>
+
+      a {
+        text-decoration: none;
+        font-size: 13px;
+        color: rgb(186, 70, 186);
+        transition: ease-in-out 0.15s;
+      }
+
+      a:hover {
+        font-weight: bold;
+      }
+
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      .top {
+        display: grid;
+        grid-template-columns: 140px 300px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+      }
+
+      .avatar img {
+        height: 130px;
+        width: 130px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      .avatar-info {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+      }
+
+      .name {
+        font-weight: bold;
+        padding-bottom: 5px;
+      }
+
+      .avatar-desc{
+        font-size: 13px;
+        display: grid;
+        grid-template-columns: 180px;
+        margin-bottom: 45px;
+      }
+
+      .contact-button {
+        background-color: rgb(63, 63, 63);
+        color: white;
+        font-size: 13px;
+        border: none;
+        border-radius: 8px;
+        padding: 7px 30px 6px 30px;
+        cursor: pointer;
+        transition: ease-in-out 0.15s;
+      }
+
+      .contact-button:hover {
+        font-weight: bold;
+      }
+
+      .contact-button:active {
+        color: rgb(186, 70, 186);
+      }
+
+      .contact-links {
+        font-size: 13px;
+        border: 2px solid black;
+        display: flex;
+        width: 440px;
+        height: 35px;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 10px;
+      }
+
+      .top-design{
+        display: flex;
+        justify-content: space-between;
+        width: 440px;
+        height: 15px;
+        border-bottom: 2px solid;
+        padding-bottom: 7px;
+      }
+
+      .bottom-design{
+        display: grid;
+        width: 440px;
+        height: 15px;
+        border-top: 2px solid;
+      }
+
+      .about-me, .skills, .more {
+        display: block;
+        width: 440px;
+        margin-bottom: 10px;
+      }
+
+      .description {
+        font-size: 13px;
+        text-align: justify;
+      }
+
+      .pictures {
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-around;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+
+      .pictures img {
+        height: 100px;
+        border-radius: 8px;
+      }
+
+      .exit {
+        font-weight: bold;
+      }
+
+      .other {
+        font-size: 13px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="main">
+      <div class="top-design">
+        <div class="other">
+          <a href="more.html">next</a>
+        </div>
+        <div class="exit">
+          x
+        </div>
+      </div>
+
+      <div class="top">
+        <div class="avatar">
+          <img src="/my-website/pic.JPG">
+        </div>
+
+        <div class="avatar-info">
+
+          <div class="name">
+            DARYL
+          </div>
+
+          <div class="avatar-desc">
+            Hi there, I'm Daryl Ong, but you can call me dada!
+          </div>
+
+          <a href="https://doughryl.github.io/myWeb/index.html">
+            <button class="contact-button">
+              SURPRISE!
+            </button>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="contact-links">
+        <div>
+          <a href="https://github.com/doughryl" target="_blank" >GITHUB</a>
+        </div>
+        <div>
+          <a href="https://facebook.com/doughryI" target="_blank" >FACEBOOK</a>
+        </div>
+        <div>
+          <a href="https://instagram.com/dkpoim" target="_blank" >INSTAGRAM</a>
+        </div>
+      </div>
+
+      <div class="about-me">
+        <div class="name">
+          ABOUT
+        </div>
+
+        <div class="description">
+          I'm a 4th year 
+          <a target="_blank" href="https://www.dlsud.edu.ph/programs/ceat/bce.htm">Computer Engineering</a>
+          student who enjoys Web Design and Cybersecurity.
+          I'm passionate about technology, arts, health, and music.
+          I find joy in both playing musical instruments and listening to music.
+        </div>
+      </div>
+
+      <div class="skills">
+        <div class="name">
+          SKILLS
+        </div>
+
+        <div class="pictures">
+          <img src="/my-website/html.png">
+          <img src="/my-website/css.png">
+          <img src="/my-website/c.png">
+          <img src="/my-website/sql.png">
+        </div>
+
+      </div>
+
+      <div class="more">
+        <div class="name">
+          MORE
+        </div>
+
+        <div class="description">
+          My journey into web development started with 
+          <a target="_blank" href="https://www.tumblr.com/">Tumblr</a>
+          in 2016 where I discovered 
+          the exciting possibilities of customized websites. 
+          This interest carried on when I found
+          <a target="_blank" href="https://www.carrd.co/">Carrd</a>, 
+          which made web creation effortless.
+        </div>
+
+      </div>
+
+      <div class="bottom-design">
+      </div>
+      
+    </div>
+
+  </body>
+</html>
